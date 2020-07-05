@@ -1,0 +1,28 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "titulo": "Crear JSON para el proyecto",
+      "colaborador": "David",
+      "state": "to-do",
+      "fecha": 1594569709,
+      "created": 1589299309
+    },
+    {
+      "id": 1,
+      "titulo": "Crear 2 JSON para el proyecto",
+      "colaborador": "David",
+      "state": "in-progress",
+      "fecha": 1594569709,
+      "created": 1589299309
+    },
+    {
+      "id": 1,
+      "titulo": "Crear 3 JSON para el proyecto",
+      "colaborador": "David",
+      "state": "done",
+      "fecha": 1594569709,
+      "created": 1589299309
+    }
+  ]
+}
