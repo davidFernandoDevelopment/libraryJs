@@ -19,52 +19,19 @@
           <h2>
             TO DO
           </h2>
-          <div class="task-container">
-            <article class="task">
-              <h3>CREAR JSON DEL PROYECTO</h3>
-              <p>Responsable: <span>David Sanchez</span></p>
-              <p>Fecha de entrega: <span>05/06/2020</span></p>
-            </article>
-            <article class="task">
-              <h3>CREAR JSON DEL PROYECTO</h3>
-              <p>Responsable: <span>David Sanchez</span></p>
-              <p>Fecha de entrega: <span>05/06/2020</span></p>
-            </article>
-            <article class="task">
-              <h3>CREAR JSON DEL PROYECTO</h3>
-              <p>Responsable: <span>David Sanchez</span></p>
-              <p>Fecha de entrega: <span>05/06/2020</span></p>
-            </article>
-          </div>
+          <div class="task-container" id="todoTasks"></div>
         </div>
         <div class="container">
           <h2>
             IN PROGESS
           </h2>
-          <div class="task-container">
-            <article class="task">
-              <h3>CREAR JSON DEL PROYECTO</h3>
-              <p>Responsable: <span>David Sanchez</span></p>
-              <p>Fecha de entrega: <span>05/06/2020</span></p>
-            </article>
-            <article class="task">
-              <h3>CREAR JSON DEL PROYECTO</h3>
-              <p>Responsable: <span>David Sanchez</span></p>
-              <p>Fecha de entrega: <span>05/06/2020</span></p>
-            </article>
-          </div>
+          <div class="task-container" id="inprogressTasks"></div>
         </div>
         <div class="container">
           <h2>
             DONE
           </h2>
-          <div class="task-container">
-            <article class="task">
-              <h3>CREAR JSON DEL PROYECTO</h3>
-              <p>Responsable: <span>David Sanchez</span></p>
-              <p>Fecha de entrega: <span>05/06/2020</span></p>
-            </article>
-          </div>
+          <div class="task-container" id="doneTasks"></div>
         </div>
       </div>
     </main>
@@ -108,5 +75,9 @@
         </div>
       </div>
     </aside>
+
+    <!--SCRIPTS-->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./scripts/axios.js"></script>
   </body>
 </html>
